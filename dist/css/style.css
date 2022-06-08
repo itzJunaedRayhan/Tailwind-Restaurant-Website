@@ -678,10 +678,6 @@ h1, h2, h3, h4, h5, h6{
   width: 2rem;
 }
 
-.min-w-full{
-  min-width: 100%;
-}
-
 .cursor-pointer{
   cursor: pointer;
 }
@@ -1065,24 +1061,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 @media (min-width: 320px){
-  .xs\:mx-\[0\.5px\]{
-    margin-left: 0.5px;
-    margin-right: 0.5px;
-  }
-
-  .xs\:mx-\[14\.5px\]{
-    margin-left: 14.5px;
-    margin-right: 14.5px;
-  }
-
   .xs\:mx-\[5\%\]{
     margin-left: 5%;
     margin-right: 5%;
-  }
-
-  .xs\:mx-\[10\%\]{
-    margin-left: 10%;
-    margin-right: 10%;
   }
 
   .xs\:block{
@@ -1093,40 +1074,12 @@ h1, h2, h3, h4, h5, h6{
     display: none;
   }
 
-  .xs\:w-full{
-    width: 100%;
-  }
-
-  .xs\:w-\[90\%\]{
-    width: 90%;
-  }
-
-  .xs\:w-\[\%\]{
-    width: %;
-  }
-
-  .xs\:w-\[300px\]{
-    width: 300px;
-  }
-
-  .xs\:min-w-\[300px\]{
-    min-width: 300px;
-  }
-
-  .xs\:min-w-\[100\%\]{
-    min-width: 100%;
-  }
-
   .xs\:min-w-full{
     min-width: 100%;
   }
 
   .xs\:min-w-\[90\%\]{
     min-width: 90%;
-  }
-
-  .xs\:min-w-\[88\%\]{
-    min-width: 88%;
   }
 
   .xs\:grid-cols-1{
@@ -1147,19 +1100,14 @@ h1, h2, h3, h4, h5, h6{
     padding-right: 0.5rem;
   }
 
+  .xs\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .xs\:px-0{
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .xs\:px-4{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .xs\:px-3{
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
   }
 
   .xs\:text-xl{
