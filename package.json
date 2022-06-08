@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-restaurant-website",
+  "version": "1.0.0",
+  "description": "Front-End-Design",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./dist/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Junaed Islam",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
