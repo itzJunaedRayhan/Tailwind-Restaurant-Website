@@ -1100,9 +1100,9 @@ h1, h2, h3, h4, h5, h6{
     padding-right: 0.5rem;
   }
 
-  .xs\:px-5{
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+  .xs\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .xs\:px-0{
