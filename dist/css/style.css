@@ -1184,6 +1184,38 @@ h1, h2, h3, h4, h5, h6{
     min-width: 44.7%;
   }
 
+  .sm\:min-w-\[\]{
+    min-width: ;
+  }
+
+  .sm\:min-w-\[100\]{
+    min-width: 100;
+  }
+
+  .sm\:min-w-\[100\%\]{
+    min-width: 100%;
+  }
+
+  .sm\:min-w-0{
+    min-width: 0px;
+  }
+
+  .sm\:max-w-\[100\%\]{
+    max-width: 100%;
+  }
+
+  .sm\:max-w-\[12\]{
+    max-width: 12;
+  }
+
+  .sm\:max-w-\[1200\]{
+    max-width: 1200;
+  }
+
+  .sm\:max-w-\[1200px\]{
+    max-width: 1200px;
+  }
+
   .sm\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1220,6 +1252,40 @@ h1, h2, h3, h4, h5, h6{
 }
 
 @media (min-width: 768px){
+  .md\:container{
+    width: 100%;
+  }
+
+  @media (min-width: 320px){
+    .md\:container{
+      max-width: 320px;
+    }
+  }
+
+  @media (min-width: 576px){
+    .md\:container{
+      max-width: 576px;
+    }
+  }
+
+  @media (min-width: 768px){
+    .md\:container{
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 990px){
+    .md\:container{
+      max-width: 990px;
+    }
+  }
+
+  @media (min-width: 1200px){
+    .md\:container{
+      max-width: 1200px;
+    }
+  }
+
   .md\:mx-5{
     margin-left: 1.25rem;
     margin-right: 1.25rem;
@@ -1231,6 +1297,40 @@ h1, h2, h3, h4, h5, h6{
 }
 
 @media (min-width: 990px){
+  .lg\:container{
+    width: 100%;
+  }
+
+  @media (min-width: 320px){
+    .lg\:container{
+      max-width: 320px;
+    }
+  }
+
+  @media (min-width: 576px){
+    .lg\:container{
+      max-width: 576px;
+    }
+  }
+
+  @media (min-width: 768px){
+    .lg\:container{
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 990px){
+    .lg\:container{
+      max-width: 990px;
+    }
+  }
+
+  @media (min-width: 1200px){
+    .lg\:container{
+      max-width: 1200px;
+    }
+  }
+
   .lg\:top-0{
     top: 0px;
   }
@@ -1281,6 +1381,40 @@ h1, h2, h3, h4, h5, h6{
 }
 
 @media (min-width: 1200px){
+  .xl\:container{
+    width: 100%;
+  }
+
+  @media (min-width: 320px){
+    .xl\:container{
+      max-width: 320px;
+    }
+  }
+
+  @media (min-width: 576px){
+    .xl\:container{
+      max-width: 576px;
+    }
+  }
+
+  @media (min-width: 768px){
+    .xl\:container{
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 990px){
+    .xl\:container{
+      max-width: 990px;
+    }
+  }
+
+  @media (min-width: 1200px){
+    .xl\:container{
+      max-width: 1200px;
+    }
+  }
+
   .xl\:min-w-\[29\.3\%\]{
     min-width: 29.3%;
   }
