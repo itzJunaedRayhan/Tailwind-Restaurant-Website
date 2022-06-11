@@ -1013,7 +1013,7 @@ h1, h2, h3, h4, h5, h6{
 .display-navigation {
   top: 8%;
   left: 85%;
-  height: 84%;
+  max-height: 84%;
 }
 
 .control-nav{
