@@ -757,6 +757,11 @@ h1, h2, h3, h4, h5, h6{
   background-color: rgb(240 240 240 / var(--tw-bg-opacity));
 }
 
+.bg-heaven{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -767,14 +772,21 @@ h1, h2, h3, h4, h5, h6{
   background-color: rgb(35 43 56 / var(--tw-bg-opacity));
 }
 
-.bg-heaven{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(238 191 0 / var(--tw-bg-opacity));
+}
+
+.bg-hero{
+  background-image: url('/dist/images/hero.png');
+}
+
+.bg-bottom{
+  background-position: bottom;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
 }
 
 .p-5{

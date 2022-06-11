@@ -23,6 +23,9 @@ module.exports = {
         'light': '#F0F0F0',
         'heaven': '#FFFFFF',
         'footer': '#2D333F'
+      },
+      backgroundImage: {
+        'hero' : "url('/dist/images/hero.png')"
       }
     },
   },
