@@ -646,6 +646,10 @@ h1, h2, h3, h4, h5, h6{
   height: 80%;
 }
 
+.h-\[420px\]{
+  height: 420px;
+}
+
 .h-\[200px\]{
   height: 200px;
 }
@@ -662,8 +666,8 @@ h1, h2, h3, h4, h5, h6{
   max-height: 100vh;
 }
 
-.max-h-\[420px\]{
-  max-height: 420px;
+.min-h-\[420px\]{
+  min-height: 420px;
 }
 
 .w-screen{
@@ -1101,9 +1105,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 @media (min-width: 320px){
-  .xs\:mx-\[5\%\]{
-    margin-left: 5%;
-    margin-right: 5%;
+  .xs\:mx-\[10\%\]{
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .xs\:my-4{
@@ -1114,31 +1118,6 @@ h1, h2, h3, h4, h5, h6{
   .xs\:my-5{
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
-  }
-
-  .xs\:mx-\[7\%\]{
-    margin-left: 7%;
-    margin-right: 7%;
-  }
-
-  .xs\:mx-\[8\%\]{
-    margin-left: 8%;
-    margin-right: 8%;
-  }
-
-  .xs\:mx-\[9\%\]{
-    margin-left: 9%;
-    margin-right: 9%;
-  }
-
-  .xs\:mx-\[10\%\]{
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .xs\:mx-\[0\%\]{
-    margin-left: 0%;
-    margin-right: 0%;
   }
 
   .xs\:block{
@@ -1173,22 +1152,6 @@ h1, h2, h3, h4, h5, h6{
     min-width: 100%;
   }
 
-  .xs\:min-w-\[90\%\]{
-    min-width: 90%;
-  }
-
-  .xs\:min-w-\[84\%\]{
-    min-width: 84%;
-  }
-
-  .xs\:min-w-\[86\%\]{
-    min-width: 86%;
-  }
-
-  .xs\:min-w-\[82\%\]{
-    min-width: 82%;
-  }
-
   .xs\:min-w-\[80\%\]{
     min-width: 80%;
   }
@@ -1219,11 +1182,6 @@ h1, h2, h3, h4, h5, h6{
     padding-right: 0.5rem;
   }
 
-  .xs\:px-6{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
   .xs\:px-0{
     padding-left: 0px;
     padding-right: 0px;
@@ -1232,11 +1190,6 @@ h1, h2, h3, h4, h5, h6{
   .xs\:py-4{
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-
-  .xs\:px-1{
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
   }
 
   .xs\:text-center{
