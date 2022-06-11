@@ -781,6 +781,10 @@ h1, h2, h3, h4, h5, h6{
   background-image: url('/dist/images/hero.png');
 }
 
+.bg-\[url\(\'\/images\/hero\.png\'\)\]{
+  background-image: url('/images/hero.png');
+}
+
 .bg-bottom{
   background-position: bottom;
 }
@@ -1165,48 +1169,32 @@ h1, h2, h3, h4, h5, h6{
     background-color: transparent;
   }
 
-  .xs\:bg-\[url\(\)\]{
-    background-image: url();
-  }
-
-  .xs\:bg-\[url\(\/\)\]{
-    background-image: url(/);
-  }
-
-  .xs\:bg-\[url\(\'\/\'\)\]{
-    background-image: url('/');
-  }
-
-  .xs\:bg-\[url\(\'\/dist\/\'\)\]{
-    background-image: url('/dist/');
-  }
-
-  .xs\:bg-\[url\(\'\/dist\/images\/\'\)\]{
-    background-image: url('/dist/images/');
-  }
-
   .xs\:bg-\[url\(\'\/dist\/images\/hero\.png\'\)\]{
     background-image: url('/dist/images/hero.png');
   }
 
-  .xs\:bg-\[url\(\'\/dist\/images\/s\'\)\]{
-    background-image: url('/dist/images/s');
+  .xs\:bg-\[url\(\'\.\/\'\)\]{
+    background-image: url('./');
   }
 
-  .xs\:bg-\[url\(\'\/dist\/images\/straw\.png\'\)\]{
-    background-image: url('/dist/images/straw.png');
+  .xs\:bg-\[url\(\'\.\/images\/\'\)\]{
+    background-image: url('./images/');
   }
 
-  .xs\:bg-cover{
-    background-size: cover;
+  .xs\:bg-\[url\(\'\.\/images\/hero\.png\'\)\]{
+    background-image: url('./images/hero.png');
   }
 
-  .xs\:bg-center{
-    background-position: center;
+  .xs\:bg-\[url\(\'\/images\/hero\.png\'\)\]{
+    background-image: url('/images/hero.png');
   }
 
   .xs\:bg-bottom{
     background-position: bottom;
+  }
+
+  .xs\:bg-center{
+    background-position: center;
   }
 
   .xs\:bg-no-repeat{
