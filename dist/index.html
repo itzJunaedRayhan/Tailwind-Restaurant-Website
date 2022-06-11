@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Website</title>
-    <link rel="stylesheet" href="./dist/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <!--    Font-Awesome    -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!--    Google Fonts    -->
@@ -14,48 +14,36 @@
 </head>
 
 <body>
-    <!--======================================      NAVIGATION FOR MOBILE DEVICE      =======================================-->
     <div class="relative bg-light h-screen w-screen left-0 top-0  overflow-hidden">
+    <!--=================================      NAVIGATION FOR MOBILE DEVICE      ================================-->
         <div class="xs:block lg:hidden mobile-nav-wrapper p-5">
-            <img src="./dist/icons/logo.svg" alt="logo">
+            <img src="./icons/logo.svg" alt="logo">
             <div class="text-secondary text-lg py-5">
                 <i class="fa-solid fa-cart-arrow-down"></i>
                 <a href="#">0 Items - ($0.00)</a>
             </div>
             <ul>
-                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary"
-                        href="#">Home</a></li>
-                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary"
-                        href="#">About Us</a></li>
-                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary"
-                        href="#">Products</a></li>
-                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary"
-                        href="#">Blog</a></li>
-                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary"
-                        href="#">Shop</a></li>
-                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary"
-                        href="#">Service</a></li>
-                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary"
-                        href="#">Contact Us</a></li>
-                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary"
-                        href="#">Login</a></li>
-                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary"
-                        href="#">Register</a></li>
+                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary" href="#">Home</a></li>
+                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary" href="#">About Us</a></li>
+                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary" href="#">Products</a></li>
+                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary" href="#">Blog</a></li>
+                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary" href="#">Shop</a></li>
+                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary" href="#">Service</a></li>
+                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary" href="#">Contact Us</a></li>
+                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary" href="#">Login</a></li>
+                <li class="xs:py-1 sm:py-2 py-2 text-md font-medium"><a class="text-secondary hover:text-primary" href="#">Register</a></li>
             </ul>
             <div class="flex items-center py-5">
                 <i class="xs:text-xl sm:text-2xl fa-solid fa-phone text-primary text-2xl"></i>
                 <div class="xs:px-2 sm:px-4 px-4">
-                    <p class="xs:text-sm sm:text-md text-black font-extrabold text-md font-['Raleway']">Call US: (+880)
-                        1792 138 331
-                    </p>
+                    <p class="xs:text-sm sm:text-md text-black font-extrabold text-md font-['Raleway']">Call US: (+880) 1792 138 331</p>
                     <p class="xs:text-xs sm:text-sm text-gray-600 text-sm pt-1">E-mail : junaedislam96@gmail.com</p>
                 </div>
             </div>
             <div class="flex items-center">
                 <i class="xs:text-xl sm:text-2xl fa-solid fa-clock text-primary text-2xl"></i>
                 <div class="xs:px-2 sm:px-4 px-4">
-                    <p class="xs:text-sm sm:text-md text-black font-extrabold text-md font-['Raleway']">Working Hours:
-                    </p>
+                    <p class="xs:text-sm sm:text-md text-black font-extrabold text-md font-['Raleway']">Working Hours: </p>
                     <p class="xs:text-xs sm:text-sm text-sm text-gray-600 pt-1">Mon - Sat (8.00am - 12.00am)</p>
                 </div>
             </div>
@@ -63,13 +51,12 @@
 
 
 
-        <!--   Desktop -->
-        <div id="full-wrapper"
-            class="lg:top-0 lg:left-0 lg:h-[100%] absolute top-[0%] left-[0%] h-[100%] overflow-y-scroll w-full transition-all duration-300 delay-100">
+    <!--=========================================      DESKTOP VERSION      ======================================-->
+        <div id="full-wrapper" class="lg:top-0 lg:left-0 lg:h-[100%] absolute top-[0%] left-[0%] h-[100%] overflow-y-scroll w-full transition-all duration-300 delay-100">
+             <!--=================================      HEADER SECTION      ====================================-->
             <header class="header-and-banner">
                 <!--=====================    Navigation Section  =====================-->
-                <div
-                    class="xs:after:hidden lg:after:block relative bg-white z-20 after:absolute after:content-[''] after:bottom-[-24px] after:w-full after:h-[69px] after:bg-[url('/dist/icons/shadow.svg')] after:bg-no-repeat after:bg-center after:-z-10 ">
+                <div class="xs:after:hidden lg:after:block relative bg-white z-20 after:absolute after:content-[''] after:bottom-[-24px] after:w-full after:h-[69px] after:bg-[url('/dist/icons/shadow.svg')] after:bg-no-repeat after:bg-center after:-z-10 ">
                     <div class="bg-white">
                         <!--===========================      Top Header      =========================-->
                         <div class="xs:bg-transparent lg:bg-secondary top-header bg-secondary px-4">
@@ -80,19 +67,11 @@
                             <div class="xs:hidden lg:flex container mx-auto py-2 flex justify-between items-center">
                                 <div class="social py-1">
                                     <ul class="flex">
-                                        <li class="text-white mx-2 text-sm"><a href="#"><i
-                                                    class="fa-brands fa-facebook-f"></i></a>
-                                        </li>
-                                        <li class="text-white mx-2 text-sm"><a href="#"><i
-                                                    class="fa-brands fa-twitter"></i></a>
-                                        </li>
-                                        <li class="text-white mx-2 text-sm"><a href="#"><i
-                                                    class="fa-brands fa-instagram"></i></a>
-                                        </li>
-                                        <li class="text-white mx-2 text-sm"><a href="#"><i
-                                                    class="fa-brands fa-google-plus-g"></i></a></li>
-                                        <li class="text-white mx-2 text-sm"><a href="#"><i
-                                                    class="fa-solid fa-magnifying-glass"></i></a></li>
+                                        <li class="text-white mx-2 text-sm"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li class="text-white mx-2 text-sm"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li class="text-white mx-2 text-sm"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li class="text-white mx-2 text-sm"><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                                        <li class="text-white mx-2 text-sm"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="flex py-1">
@@ -120,16 +99,12 @@
                                 <div class="flex items-center">
                                     <i class="fa-solid fa-phone text-primary text-2xl"></i>
                                     <div class="px-4">
-                                        <p class="text-black font-extrabold text-md font-['Raleway']">Call US: (+880)
-                                            1792
-                                            138
-                                            331
-                                        </p>
+                                        <p class="text-black font-extrabold text-md font-['Raleway']">Call US: (+880) 1792 138 331</p>
                                         <p class="text-gray-600 text-sm pt-1">E-mail : junaedislam96@gmail.com</p>
                                     </div>
                                 </div>
                                 <div>
-                                    <img class="w-\[186px] h-[56px]" src="./dist/images/logo.png" alt="">
+                                    <img class="w-\[186px] h-[56px]" src="./images/logo.png" alt="">
                                 </div>
                                 <div class="flex items-center">
                                     <i class="fa-solid fa-clock text-primary text-2xl"></i>
@@ -142,36 +117,14 @@
                             <!--===========================      Bottom Header      ============================-->
                             <div class="">
                                 <ul class="flex justify-center items-center">
-                                    <li class="px-6 py-4 text-md text-secondary font-medium active"><a href="#">Home</a>
-                                    </li>
-                                    <li
-                                        class="px-6 py-4 text-md text-secondary font-medium hover:bg-primary hover:text-white">
-                                        <a href="#">About Us</a>
-                                    </li>
-                                    <li
-                                        class="px-6 py-4 text-md text-secondary font-medium hover:bg-primary hover:text-white">
-                                        <a href="#">Products</a>
-                                    </li>
-                                    <li
-                                        class="px-6 py-4 text-md text-secondary font-medium hover:bg-primary hover:text-white">
-                                        <a href="#">Blog</a>
-                                    </li>
-                                    <li
-                                        class="px-6 py-4 text-md text-secondary font-medium hover:bg-primary hover:text-white">
-                                        <a href="#">Shop</a>
-                                    </li>
-                                    <li
-                                        class="px-6 py-4 text-md text-secondary font-medium hover:bg-primary hover:text-white">
-                                        <a href="#">Service</a>
-                                    </li>
-                                    <li
-                                        class="px-6 py-4 text-md text-secondary font-medium hover:bg-primary hover:text-white">
-                                        <a href="#">Gallery</a>
-                                    </li>
-                                    <li
-                                        class="px-6 py-4 text-md text-secondary font-medium hover:bg-primary hover:text-white">
-                                        <a href="#">Contact Us</a>
-                                    </li>
+                                    <li class="px-6 py-4 text-md text-secondary font-medium active"><a href="#">Home</a></li>
+                                    <li class="px-6 py-4 text-md text-secondary font-medium hover:bg-primary hover:text-white"><a href="#">About Us</a></li>
+                                    <li class="px-6 py-4 text-md text-secondary font-medium hover:bg-primary hover:text-white"><a href="#">Products</a></li>
+                                    <li class="px-6 py-4 text-md text-secondary font-medium hover:bg-primary hover:text-white"><a href="#">Blog</a></li>
+                                    <li class="px-6 py-4 text-md text-secondary font-medium hover:bg-primary hover:text-white"><a href="#">Shop</a></li>
+                                    <li class="px-6 py-4 text-md text-secondary font-medium hover:bg-primary hover:text-white"><a href="#">Service</a></li>
+                                    <li class="px-6 py-4 text-md text-secondary font-medium hover:bg-primary hover:text-white"><a href="#">Gallery</a></li>
+                                    <li class="px-6 py-4 text-md text-secondary font-medium hover:bg-primary hover:text-white"><a href="#">Contact Us</a></li>
                                 </ul>
                             </div><!--  End of Bottom   -->
                         </nav>
@@ -179,53 +132,38 @@
                 </div><!--   End Of Navigation   -->
 
                 <!--=====================    Banner Section  =========================-->
-                <div
-                    class="-z-20 bg-heaven w-full banner-section h-[510px] bg-[url('/dist/images/hero.png')] bg-bottom bg-no-repeat">
-                    <div
-                        class="xs:grid-cols-1 sm:grid-cols-2 container h-full mx-auto p-4 grid grid-cols-2 justify-items-center items-center">
+                <div class="-z-20 bg-heaven w-full banner-section h-[510px] bg-[url('/dist/images/hero.png')] bg-bottom bg-no-repeat">
+                    <div class="xs:grid-cols-1 sm:grid-cols-2 container h-full mx-auto p-4 grid grid-cols-2 justify-items-center items-center">
                         <div class="banner-left">
                             <div class="flex items-center">
                                 <span class="pr-3 font-['Raleway'] text-secondary font-bold">Welcome to</span>
-                                <img src="./dist/icons/logo-2.svg" alt="Logo 2" />
+                                <img src="./icons/logo-2.svg" alt="Logo 2" />
                             </div>
-                            <h1
-                                class="xs:text-3xl sm:text-4xl lg:text-5xl py-4 text-5xl font-['Raleway'] font-extrabold text-secondary">
-                                The World Best
-                                <span class="text-primary">Shoping</span> Website
-                            </h1>
-                            <p class="pb-4 pt-1">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy.
-                            </p>
+                            <h1 class="xs:text-3xl sm:text-4xl lg:text-5xl py-4 text-5xl font-['Raleway'] font-extrabold text-secondary">The World Best <span class="text-primary">Shoping</span> Website</h1>
+                            <p class="pb-4 pt-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
                             <div>
-                                <button
-                                    class="bg-primary px-3 py-2 text-lg text-white rounded-md border border-transparent mr-2 hover:border hover:border-primary hover:text-primary hover:bg-heaven transition-all duration-300">Read
-                                    More</button>
-                                <button
-                                    class="bg-secondary px-3 py-2 text-lg text-white rounded-md  border border-transparent mr-2 hover:border hover:border-primary hover:text-secondary hover:bg-heaven transition-all duration-300">Shop
-                                    Now</button>
+                                <button class="bg-primary px-3 py-2 text-lg text-white rounded-md border border-transparent mr-2 hover:border hover:border-primary hover:text-primary hover:bg-heaven transition-all duration-300">Read More</button>
+                                <button class="bg-secondary px-3 py-2 text-lg text-white rounded-md  border border-transparent mr-2 hover:border hover:border-primary hover:text-secondary hover:bg-heaven transition-all duration-300">Shop Now</button>
                             </div>
                         </div>
-                        <img class="xs:hidden sm:block h-4/5 w-4/5" src="./dist/images/straw.png" alt="Banner Right" />
+                        <img class="xs:hidden sm:block h-4/5 w-4/5" src="./images/straw.png" alt="Banner Right" />
                     </div>
                 </div><!--  End Of Banner  -->
             </header><!--  End Of Header and Banner    -->
 
 
-            <!--    Next Section Will Start From Here   -->
+            <!--=============================      TOP PRODUCT SECTION      =============================-->
             <section class="top-products h-screen w-full bg-light overflow-hidden">
                 <div class="xs:min-w-full xs:px-6 sm:px-0 sm:min-w-0 container mx-auto flex-col flex justify-center">
                     <div class="section-title flex justify-center items-center flex-col my-12">
                         <h2 class="text-2xl text-black font-semibold py-2">Top Products</h2>
-                        <img src="./dist/icons/hr.svg" alt="title-logo" />
+                        <img src="./icons/hr.svg" alt="title-logo" />
                     </div>
 
                     <div id="products-wrapper" class="xs:min-w-full xs:px-0 sm:px-4 sm:min-w-0 sm:container container relative mx-auto px-4 flex flex-nowrap overflow-hidden">
-
                         <div class="xs:min-w-[90%] xs:mx-[5%] sm:min-w-[44.7%] sm:mx-[15px] md:min-w-[44.8%] md:mx-5 lg:min-w-[28.54%] lg:mx-6 xl:min-w-[29.3%] product max-h-[420px] mx-6 py-4 px-3 flex flex-col justify-center items-center bg-heaven">
-                            <img class="h-[200px] mx-3 pt-2 pb-4" src="./dist/images/plate-1.png" alt="1" />
-                            <div
-                                class="product-text flex flex-col justify-center items-center pt-4 mt-2 border-t border-gray-400">
+                            <img class="h-[200px] mx-3 pt-2 pb-4" src="./images/plate-1.png" alt="1" />
+                            <div class="product-text flex flex-col justify-center items-center pt-4 mt-2 border-t border-gray-400">
                                 <h2 class="text-2xl text-black font-semibold">Summer Salad</h2>
                                 <div class="rating">
                                     <i class="text-primary fa-solid fa-star"></i>
@@ -237,18 +175,14 @@
                                 <p class="price text-danger font-['Raleway']">$1.25</p>
 
                                 <div class="button-wrapper w-[160px] h-9 border-2 border-primary rounded-md mt-4 mb-2">
-                                    <button class="flex justify-between items-center cursor-pointer"><i
-                                            class="bg-primary p-2 text-heaven fa-solid fa-cart-arrow-down"></i><span
-                                            class="px-3 text-secondary font-medium">Add to cart</span></button>
+                                    <button class="flex justify-between items-center cursor-pointer"><i class="bg-primary p-2 text-heaven fa-solid fa-cart-arrow-down"></i><span class="px-3 text-secondary font-medium">Add to cart</span></button>
                                 </div>
                             </div>
                         </div>
 
-                        <div
-                            class="xs:min-w-[90%] xs:mx-[5%] sm:min-w-[44.7%] sm:mx-[15px] md:min-w-[44.8%] md:mx-5 lg:min-w-[28.54%] lg:mx-6 xl:min-w-[29.3%] product max-h-[420px] mx-6 py-4 px-3 flex flex-col justify-center items-center bg-heaven">
-                            <img class="h-[200px] mx-3 pt-2 pb-4" src="./dist/images/plate-2.png" alt="1" />
-                            <div
-                                class="product-text flex flex-col justify-center items-center pt-4 mt-2 border-t border-gray-400">
+                        <div class="xs:min-w-[90%] xs:mx-[5%] sm:min-w-[44.7%] sm:mx-[15px] md:min-w-[44.8%] md:mx-5 lg:min-w-[28.54%] lg:mx-6 xl:min-w-[29.3%] product max-h-[420px] mx-6 py-4 px-3 flex flex-col justify-center items-center bg-heaven">
+                            <img class="h-[200px] mx-3 pt-2 pb-4" src="./images/plate-2.png" alt="1" />
+                            <div class="product-text flex flex-col justify-center items-center pt-4 mt-2 border-t border-gray-400">
                                 <h2 class="text-2xl text-black font-semibold">Russian Salad</h2>
                                 <div class="rating">
                                     <i class="text-primary fa-solid fa-star"></i>
@@ -267,11 +201,9 @@
                             </div>
                         </div>
 
-                        <div
-                            class="xs:min-w-[90%] xs:mx-[5%] sm:min-w-[44.7%] sm:mx-[15px] md:min-w-[44.8%] md:mx-5 lg:min-w-[28.54%] lg:mx-6 xl:min-w-[29.3%] product max-h-[420px] mx-6 py-4 px-3 flex flex-col justify-center items-center bg-heaven">
-                            <img class="h-[200px] mx-3 pt-2 pb-4" src="./dist/images/plate-3.png" alt="1" />
-                            <div
-                                class="product-text flex flex-col justify-center items-center pt-4 mt-2 border-t border-gray-400">
+                        <div class="xs:min-w-[90%] xs:mx-[5%] sm:min-w-[44.7%] sm:mx-[15px] md:min-w-[44.8%] md:mx-5 lg:min-w-[28.54%] lg:mx-6 xl:min-w-[29.3%] product max-h-[420px] mx-6 py-4 px-3 flex flex-col justify-center items-center bg-heaven">
+                            <img class="h-[200px] mx-3 pt-2 pb-4" src="./images/plate-3.png" alt="1" />
+                            <div class="product-text flex flex-col justify-center items-center pt-4 mt-2 border-t border-gray-400">
                                 <h2 class="text-2xl text-black font-semibold">Greek Salad</h2>
                                 <div class="rating">
                                     <i class="text-primary fa-solid fa-star"></i>
@@ -283,18 +215,14 @@
                                 <p class="price text-danger font-['Raleway']">$1.25</p>
 
                                 <div class="button-wrapper w-[160px] h-9 border-2 border-primary rounded-md mt-4 mb-2">
-                                    <button class="flex justify-between items-center cursor-pointer"><i
-                                            class="bg-primary p-2 text-heaven fa-solid fa-cart-arrow-down"></i><span
-                                            class="px-3 text-secondary font-medium">Add to cart</span></button>
+                                    <button class="flex justify-between items-center cursor-pointer"><i class="bg-primary p-2 text-heaven fa-solid fa-cart-arrow-down"></i><span class="px-3 text-secondary font-medium">Add to cart</span></button>
                                 </div>
                             </div>
                         </div>
 
-                        <div
-                            class="xs:min-w-[90%] xs:mx-[5%] sm:min-w-[44.7%] sm:mx-[15px] md:min-w-[44.8%] md:mx-5 lg:min-w-[28.54%] lg:mx-6 xl:min-w-[29.3%] product max-h-[420px] mx-6 py-4 px-3 flex flex-col justify-center items-center bg-heaven">
-                            <img class="h-[200px] mx-3 pt-2 pb-4" src="./dist/images/plate-2.png" alt="1" />
-                            <div
-                                class="product-text flex flex-col justify-center items-center pt-4 mt-2 border-t border-gray-400">
+                        <div class="xs:min-w-[90%] xs:mx-[5%] sm:min-w-[44.7%] sm:mx-[15px] md:min-w-[44.8%] md:mx-5 lg:min-w-[28.54%] lg:mx-6 xl:min-w-[29.3%] product max-h-[420px] mx-6 py-4 px-3 flex flex-col justify-center items-center bg-heaven">
+                            <img class="h-[200px] mx-3 pt-2 pb-4" src="./images/plate-2.png" alt="1" />
+                            <div class="product-text flex flex-col justify-center items-center pt-4 mt-2 border-t border-gray-400">
                                 <h2 class="text-2xl text-black font-semibold">Cottage Pie</h2>
                                 <div class="rating">
                                     <i class="text-primary fa-solid fa-star"></i>
@@ -306,18 +234,15 @@
                                 <p class="price text-danger font-['Raleway']">$1.25</p>
 
                                 <div class="button-wrapper w-[160px] h-9 border-2 border-primary rounded-md mt-4 mb-2">
-                                    <button class="flex justify-between items-center cursor-pointer"><i
-                                            class="bg-primary p-2 text-heaven fa-solid fa-cart-arrow-down"></i><span
-                                            class="px-3 text-secondary font-medium">Add to cart</span></button>
+                                    <button class="flex justify-between items-center cursor-pointer"><i class="bg-primary p-2 text-heaven fa-solid fa-cart-arrow-down"></i><span class="px-3 text-secondary font-medium">Add to cart</span></button>
                                 </div>
                             </div>
                         </div>
 
                         <div
                             class="xs:min-w-[90%] xs:mx-[5%] sm:min-w-[44.7%] sm:mx-[15px] md:min-w-[44.8%] md:mx-5 lg:min-w-[28.54%] lg:mx-6 xl:min-w-[29.3%] product max-h-[420px] mx-6 py-4 px-3 flex flex-col justify-center items-center bg-heaven">
-                            <img class="h-[200px] mx-3 pt-2 pb-4" src="./dist/images/plate-3.png" alt="1" />
-                            <div
-                                class="product-text flex flex-col justify-center items-center pt-4 mt-2 border-t border-gray-400">
+                            <img class="h-[200px] mx-3 pt-2 pb-4" src="./images/plate-3.png" alt="1" />
+                            <div class="product-text flex flex-col justify-center items-center pt-4 mt-2 border-t border-gray-400">
                                 <h2 class="text-2xl text-black font-semibold">Bengali Salad</h2>
                                 <div class="rating">
                                     <i class="text-primary fa-solid fa-star"></i>
@@ -329,18 +254,15 @@
                                 <p class="price text-danger font-['Raleway']">$1.25</p>
 
                                 <div class="button-wrapper w-[160px] h-9 border-2 border-primary rounded-md mt-4 mb-2">
-                                    <button class="flex justify-between items-center cursor-pointer"><i
-                                            class="bg-primary p-2 text-heaven fa-solid fa-cart-arrow-down"></i><span
-                                            class="px-3 text-secondary font-medium">Add to cart</span></button>
+                                    <button class="flex justify-between items-center cursor-pointer"><i class="bg-primary p-2 text-heaven fa-solid fa-cart-arrow-down"></i><span class="px-3 text-secondary font-medium">Add to cart</span></button>
                                 </div>
                             </div>
                         </div>
 
                         <div
                             class="xs:min-w-[90%] xs:mx-[5%] sm:min-w-[44.7%] sm:mx-[15px] md:min-w-[44.8%] md:mx-5 lg:min-w-[28.54%] lg:mx-6 xl:min-w-[29.3%] product max-h-[420px] mx-6 py-4 px-3 flex flex-col justify-center items-center bg-heaven">
-                            <img class="h-[200px] mx-3 pt-2 pb-4" src="./dist/images/plate-2.png" alt="1" />
-                            <div
-                                class="product-text flex flex-col justify-center items-center pt-4 mt-2 border-t border-gray-400">
+                            <img class="h-[200px] mx-3 pt-2 pb-4" src="./images/plate-2.png" alt="1" />
+                            <div class="product-text flex flex-col justify-center items-center pt-4 mt-2 border-t border-gray-400">
                                 <h2 class="text-2xl text-black font-semibold">Russian Salad</h2>
                                 <div class="rating">
                                     <i class="text-primary fa-solid fa-star"></i>
@@ -352,28 +274,26 @@
                                 <p class="price text-danger font-['Raleway']">$1.25</p>
 
                                 <div class="button-wrapper w-[160px] h-9 border-2 border-primary rounded-md mt-4 mb-2">
-                                    <button class="flex justify-between items-center cursor-pointer"><i
-                                            class="bg-primary p-2 text-heaven fa-solid fa-cart-arrow-down"></i><span
-                                            class="px-3 text-secondary font-medium">Add to cart</span></button>
+                                    <button class="flex justify-between items-center cursor-pointer"><i class="bg-primary p-2 text-heaven fa-solid fa-cart-arrow-down"></i><span class="px-3 text-secondary font-medium">Add to cart</span></button>
                                 </div>
                             </div>
                         </div>
 
                         <!--  Next and Prev Buttons  -->
-                        <button
-                            class="left absolute left-0 z-40 top-1/3 mt-8 bg-primary border border-transparent shadow-inner w-8 h-8 rounded-md ">
+                        <button class="left absolute left-0 z-40 top-1/3 mt-8 bg-primary border border-transparent shadow-inner w-8 h-8 rounded-md ">
                             <i class="text-heaven fa-solid fa-angle-left"></i>
                         </button>
-                        <button
-                            class="right absolute right-0  z-40 top-1/3 mt-8 bg-primary border border-transparent shadow-inner w-8 h-8 rounded-md ">
+                        <button class="right absolute right-0  z-40 top-1/3 mt-8 bg-primary border border-transparent shadow-inner w-8 h-8 rounded-md ">
                             <i class="text-heaven fa-solid fa-angle-right"></i>
                         </button>
                     </div> <!--  End of Product Wrapper  -->
-                    <button
-                        class="bg-secondary px-3 py-2 text-lg text-white rounded-md  border border-transparent mx-auto my-10 hover:border hover:border-primary hover:text-secondary hover:bg-heaven transition-all duration-300">View
-                        More</button>
+                    <button class="bg-secondary px-3 py-2 text-lg text-white rounded-md  border border-transparent mx-auto my-10 hover:border hover:border-primary hover:text-secondary hover:bg-heaven transition-all duration-300">View More</button>
                 </div>
             </section>
+
+
+            <!--============================      ABOUT FRESH MEAL SECTION      ==========================-->
+            <h2 class="text-primary">Allah Mohan</h2>
         </div>
 
 
@@ -386,7 +306,7 @@
 
 
 
-    <script src="./dist/js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
