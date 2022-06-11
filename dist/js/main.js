@@ -30,13 +30,11 @@ left.addEventListener('click', () => {
 
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
-
-
 fullBodyWrapper.onscroll = function () { 
     if (fullBodyWrapper.scrollTop >= 100 ) {
         mobileDeviceNav[0].classList.add("nav-bg");
     }else{
         mobileDeviceNav[0].classList.remove("nav-bg");
     } 
-    
 };
+

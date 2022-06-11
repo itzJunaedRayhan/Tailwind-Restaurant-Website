@@ -646,10 +646,6 @@ h1, h2, h3, h4, h5, h6{
   height: 80%;
 }
 
-.h-\[420px\]{
-  height: 420px;
-}
-
 .h-\[200px\]{
   height: 200px;
 }
@@ -664,6 +660,10 @@ h1, h2, h3, h4, h5, h6{
 
 .max-h-screen{
   max-height: 100vh;
+}
+
+.min-h-\[430px\]{
+  min-height: 430px;
 }
 
 .min-h-\[420px\]{
@@ -1185,6 +1185,11 @@ h1, h2, h3, h4, h5, h6{
   .xs\:px-0{
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .xs\:py-8{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .xs\:py-4{
