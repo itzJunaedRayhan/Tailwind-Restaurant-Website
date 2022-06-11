@@ -777,22 +777,6 @@ h1, h2, h3, h4, h5, h6{
   background-color: rgb(238 191 0 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/dist\/images\/hero\.png\'\)\]{
-  background-image: url('/dist/images/hero.png');
-}
-
-.bg-\[url\(\'\/images\/hero\.png\'\)\]{
-  background-image: url('/images/hero.png');
-}
-
-.bg-bottom{
-  background-position: bottom;
-}
-
-.bg-no-repeat{
-  background-repeat: no-repeat;
-}
-
 .p-5{
   padding: 1.25rem;
 }
@@ -1167,38 +1151,6 @@ h1, h2, h3, h4, h5, h6{
 
   .xs\:bg-transparent{
     background-color: transparent;
-  }
-
-  .xs\:bg-\[url\(\'\/dist\/images\/hero\.png\'\)\]{
-    background-image: url('/dist/images/hero.png');
-  }
-
-  .xs\:bg-\[url\(\'\.\/\'\)\]{
-    background-image: url('./');
-  }
-
-  .xs\:bg-\[url\(\'\.\/images\/\'\)\]{
-    background-image: url('./images/');
-  }
-
-  .xs\:bg-\[url\(\'\.\/images\/hero\.png\'\)\]{
-    background-image: url('./images/hero.png');
-  }
-
-  .xs\:bg-\[url\(\'\/images\/hero\.png\'\)\]{
-    background-image: url('/images/hero.png');
-  }
-
-  .xs\:bg-bottom{
-    background-position: bottom;
-  }
-
-  .xs\:bg-center{
-    background-position: center;
-  }
-
-  .xs\:bg-no-repeat{
-    background-repeat: no-repeat;
   }
 
   .xs\:py-1{
