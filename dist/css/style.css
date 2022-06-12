@@ -661,6 +661,10 @@ h1, h2, h3, h4, h5, h6{
   display: grid;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
 .h-\[56px\]{
   height: 56px;
 }
@@ -731,6 +735,10 @@ h1, h2, h3, h4, h5, h6{
 
 .min-h-\[80vh\]{
   min-height: 80vh;
+}
+
+.w-screen{
+  width: 100vw;
 }
 
 .w-full{
@@ -1935,8 +1943,8 @@ h1, h2, h3, h4, h5, h6{
     display: none;
   }
 
-  .lg\:max-h-screen{
-    max-height: 100vh;
+  .lg\:h-screen{
+    height: 100vh;
   }
 
   .lg\:max-h-\[90vh\]{
