@@ -25,6 +25,7 @@ module.exports = {
         'footer': '#2D333F'
       },
       backgroundImage: {
+        'shadow' : "url('/dist/icons/shadow.svg')",
         'hero' : "url('/dist/images/hero.png')"
       }
     },

@@ -572,8 +572,8 @@ h1, h2, h3, h4, h5, h6{
   z-index: 30;
 }
 
-.z-10{
-  z-index: 10;
+.z-20{
+  z-index: 20;
 }
 
 .mx-auto{
@@ -1315,11 +1315,6 @@ h1, h2, h3, h4, h5, h6{
   z-index: 10;
 }
 
-.after\:z-20::after{
-  content: var(--tw-content);
-  z-index: 20;
-}
-
 .after\:h-\[69px\]::after{
   content: var(--tw-content);
   height: 69px;
@@ -1330,7 +1325,7 @@ h1, h2, h3, h4, h5, h6{
   width: 100%;
 }
 
-.after\:bg-\[url\(\'\/dist\/icons\/shadow\.svg\'\)\]::after{
+.after\:bg-shadow::after{
   content: var(--tw-content);
   background-image: url('/dist/icons/shadow.svg');
 }
