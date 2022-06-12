@@ -564,12 +564,16 @@ h1, h2, h3, h4, h5, h6{
   z-index: 40;
 }
 
+.-z-20{
+  z-index: -20;
+}
+
 .z-30{
   z-index: 30;
 }
 
-.-z-20{
-  z-index: -20;
+.z-10{
+  z-index: 10;
 }
 
 .mx-auto{
@@ -1304,6 +1308,16 @@ h1, h2, h3, h4, h5, h6{
 .after\:-z-10::after{
   content: var(--tw-content);
   z-index: -10;
+}
+
+.after\:z-10::after{
+  content: var(--tw-content);
+  z-index: 10;
+}
+
+.after\:z-20::after{
+  content: var(--tw-content);
+  z-index: 20;
 }
 
 .after\:h-\[69px\]::after{
