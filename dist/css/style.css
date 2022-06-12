@@ -2023,6 +2023,10 @@ h1, h2, h3, h4, h5, h6{
 }
 
 @media (min-width: 1200px){
+  .xl\:min-h-\[65vh\]{
+    min-height: 65vh;
+  }
+
   .xl\:w-\[250px\]{
     width: 250px;
   }
