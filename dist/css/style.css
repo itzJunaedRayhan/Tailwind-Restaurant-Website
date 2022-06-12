@@ -572,10 +572,6 @@ h1, h2, h3, h4, h5, h6{
   z-index: 30;
 }
 
-.z-20{
-  z-index: 20;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -1308,11 +1304,6 @@ h1, h2, h3, h4, h5, h6{
 .after\:-z-10::after{
   content: var(--tw-content);
   z-index: -10;
-}
-
-.after\:z-10::after{
-  content: var(--tw-content);
-  z-index: 10;
 }
 
 .after\:h-\[69px\]::after{
